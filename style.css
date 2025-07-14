@@ -1,5 +1,6 @@
 #container{
     display: flex;
+    justify-content: center;
 }
 
 
@@ -7,5 +8,8 @@
     border: 1px solid black;
     width: 30px;
     height: 30px;
+}
 
+.title_top{
+    text-align: center;
 }

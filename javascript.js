@@ -19,3 +19,12 @@ for (let i=1; i<=16; i++ ){
 }
 
 
+const myGrid = document.querySelectorAll('.grid');
+
+myGrid.forEach((square) => {
+  // and for each one we add a 'click' listener
+  square.addEventListener("mouseenter", () => {
+    square.style.backgroundColor = 'lightblue';
+
+  });
+});
