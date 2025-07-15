@@ -13,7 +13,6 @@ for (let i=1; i<=16; i++ ){
         grid.classList.add("grid");
         row.appendChild(grid);
     }
-
     container.appendChild(row);
 
 }
@@ -25,6 +24,6 @@ myGrid.forEach((square) => {
   // and for each one we add a 'click' listener
   square.addEventListener("mouseenter", () => {
     square.style.backgroundColor = 'lightblue';
-
   });
 });
+
