@@ -1,20 +1,25 @@
-#container{
+#container {
     display: flex;
     justify-content: center;
     width: 800px;
     height: 800px;
     margin: auto;
-}
-
-
-.grid{
     border: 1px solid black;
-    width: 30px;
-    height: 30px;
 }
 
+#dialogue_buttons {
+    display: flex;
+    justify-content: center; 
+    margin: 30px;   
+}
 
-.title_top{
+/*.grid {
+    border: 1px solid black;
+}*/
+
+
+
+.title_top {
     display: flex;
     justify-content: center;
 }
